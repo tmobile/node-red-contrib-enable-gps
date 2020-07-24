@@ -1,0 +1,20 @@
+{
+  "name": "node-red-contrib-enable-gps",
+  "version": "1.0.0",
+  "description": "Enable GPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "enable-gps": "enable-gps.js"
+    }
+  },
+  "dependencies": {
+    "raspi": "6.0.1",
+    "raspi-serial": "6.0.0",
+    "serialport": "9.0.0",
+    "@serialport/stream":"9.0.0"
+  }
+}

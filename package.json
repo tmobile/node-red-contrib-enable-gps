@@ -1,5 +1,5 @@
 {
-  "name": "node-red-contrib-enable-gps",
+  "name": "@tmobile/node-red-contrib-enable-gps",
   "version": "1.0.0",
   "description": "Enable GPS",
   "main": "index.js",
